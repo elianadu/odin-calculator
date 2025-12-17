@@ -1,0 +1,11 @@
+.number {
+    background-color: rgb(162, 162, 255);
+}
+
+.operator {
+    background-color: rgb(255, 188, 255);
+}
+
+#display {
+    border: 2px solid black;
+}
