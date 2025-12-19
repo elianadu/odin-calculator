@@ -1,12 +1,45 @@
 .number {
-    background-color: rgb(162, 162, 255);
+  background-color: rgb(168, 106, 255);
 }
 
 .operator {
-    background-color: rgb(255, 188, 255);
+  background-color: rgb(247, 139, 242);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 100px 0px 100px;
 }
 
 #display {
-    border: 2px solid black;
-    height: 25px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 300px;
+  height: 40px;
+  flex: auto;
+  padding: 10px;
+  text-align: right;
+}
+
+#buttons {
+  box-sizing: border-box;
+  width: 300px;
+  flex: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button#clear {
+  flex: 1;
+  background-color: rgb(255, 211, 253);
+
+}
+
+button {
+  width: 50px;
+  height: 50px;
+border: 2px solid black;
 }
